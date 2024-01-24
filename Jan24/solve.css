@@ -1,0 +1,65 @@
+<div class="triangle-big"></div>
+<div class="circle"></div>
+<div class="bone"></div>
+<div class="triangle-small"></div>
+
+<style>
+
+  body{
+    background: #9F002F;
+  }
+  
+  .triangle-big{
+    width: 0; 
+    height: 0; 
+    border-top: 81px solid transparent;
+    border-bottom: 81px solid transparent;
+    border-right: 101px solid #ED3B9A;
+    position: absolute;
+    top: 68px;
+    left: 74px;
+    z-index: 2;
+  }
+
+ .circle{
+   width: 40.25px;
+   height: 40.25px;
+   background: #F7BED9;
+   border-radius: 100%;
+   position: absolute;
+   left: 115px;
+   top: 129px;
+   z-index: 2;
+ }
+
+  .triangle-small{
+    width: 0; 
+    height: 0; 
+    border-top: 40.5px solid transparent;
+    border-bottom: 40.5px solid transparent;
+    border-right: 50px solid #F7BED9;
+    position: absolute;
+    top: 110px;
+    left: 275px;
+  }
+
+  .bone{
+    position: absolute;
+    width: 150px;
+    height: 10px;
+    top: 145px;
+    left: 174px;
+    background: #F7BED9;
+  }
+
+
+  
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
