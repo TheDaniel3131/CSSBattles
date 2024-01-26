@@ -1,0 +1,56 @@
+<div class="bread-top"></div>
+<div class="bread-content1"></div>
+<div class="bread-content2"></div>
+<
+<style>
+
+  body{
+    background: #999943
+  }
+  .bread-top {
+    width: 200px;
+    height: 100px;
+    background: #F0ED38;
+    border-radius: 150px 150px 0 0;
+    position: absolute;
+    top: 60px;
+    left: 100px;
+  }
+  .bread-content1 {
+    width: 200px;
+    height: 20px;
+    background: #F0ED38;
+    position: absolute;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    top: 180px;
+    left: 100px;
+    z-index: 2;
+}
+
+  .bread-content2 {
+    width: 200px;
+    height: 20px;
+    background: #F0ED38;
+    position: absolute;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    top: 220px;
+    left: 100px;
+    z-index: 2;
+}
+  
+  
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->

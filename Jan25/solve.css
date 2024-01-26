@@ -1,0 +1,73 @@
+<div class ="vone"></div>
+<div class ="vtwo"></div>
+<div class ="hone"></div>
+<div class ="htwo"></div>
+<style>
+
+  body{
+    background: #0D2328;
+  }
+
+  
+  .vone {
+    width: 250px;
+    height: 40px;
+    background: #19B3F1;
+    position: absolute;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 0;
+    top: 80px;
+    left: 75.1px;
+  }
+
+.vtwo {
+    width: 200px;
+    height: 40px;
+    background: #80CDF6;
+    position: absolute;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    top: 150px;
+    left: 100px;
+    z-index: 2;
+}
+
+.hone {
+    width: 20px;
+    height: 180px;
+    background: #357597;
+    position: absolute;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    top: 120px;
+    left: 140px;
+}
+
+.htwo {
+    width: 20px;
+    height: 180px;
+    background: #357597;
+    position: absolute;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    top: 120px;
+    left: 240px;
+}
+
+
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
