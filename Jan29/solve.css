@@ -1,0 +1,51 @@
+<div class="cut-rect">
+ <div class="back-rect"></div> 
+</div>
+<div class="polygon-stuff"></div> 
+<style>
+
+
+  body{
+    background: #6A1368;
+  }
+  .cut-rect {
+    width: 280px;
+    height: 180px;
+    background: #A94EA4;
+    position: absolute;
+    left: 60px;
+    top: 60px;
+    border-radius: 8.667%;
+  }
+
+
+  .polygon-stuff{
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    background: #F7BED9;
+    width: 280px;
+    height: 180px;
+    border-radius: 8.667%;
+    clip-path: polygon(0% 50%, 14.2% 50%, 32% 83%, 68% 16.2%, 85.5% 50%, 100% 50%, 100% 100%, 0 100%);
+    z-index: 2;
+  }
+
+  /* .back-rect{
+    position: absolute;
+    top: 90px;
+    background: #F7BED9;
+    width: 280px;
+    height: 90px;
+    border-radius: 0 0 13% 13%;
+  } */
+  
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
