@@ -1,0 +1,6 @@
+Today I learnt more tricks and tips on improving the CSS battle codes to get top scores.
+
+https://cssbattle.dev/tips
+
+https://www.sitepoint.com/code-challenge-2-4-tips-for-higher-scores-in-cssbattle-dev/
+
