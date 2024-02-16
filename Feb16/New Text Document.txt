@@ -1,0 +1,1 @@
+<body bgcolor="#024817"><div id="z"><div id="l"><div id="x"><div id="m"><div id="n"><style>#m,#n,#l,#x,#z{position:fixed;background:#CCE9D3}#m{width:200;height:40;top:130;left:100;}#l,#n{width:120;height:40;}#l{top:75;left:140;}#x,#z{width:40;height:30;}#x{top:55;left:180;}#n{transform:rotate(180deg);top:185;left:140;}#z{position:absolute;top:215;left:180;}
