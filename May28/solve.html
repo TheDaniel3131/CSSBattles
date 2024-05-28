@@ -1,0 +1,51 @@
+// I give up, this is too hard...
+
+<body bgcolor=F59426><div class='box mask'><div class='box2 mask2'>
+<style>
+  .box {
+  --size: 40px;
+  left: -10px;
+  width: 400px;
+  height: 200px;
+  margin: 0px;
+  
+  background:
+    radial-gradient(var(--size) at 50% var(--size),blue 99%,#0000 101%) calc(50% - 3*var(--size)) 0/calc(4*var(--size)) 100% no-repeat,
+    radial-gradient(var(--size) at 50% 0px,#0000 99%,red 101%) 50% var(--size)/calc(4*var(--size)) 100% no-repeat;
+}
+.box + .box {
+  background-repeat: repeat-x;
+}
+.box.mask {
+  bottom: 0;
+  position: relative;
+  top: 90;
+  -webkit-mask:
+    radial-gradient(var(--size) at 50% var(--size),blue 99%,#0000 101%) calc(50% - 2*var(--size)) 0/calc(4*var(--size)) 100%,
+    radial-gradient(var(--size) at 50% 0px,#0000 99%,red 101%) 50% var(--size)/calc(4*var(--size)) 100% repeat-x;
+  background:#FEFF58;  
+  border: none;
+}
+  .box2 {
+  --size: 40px;
+  left: -0px;
+  width: 400px;
+  height: 200px;
+  margin: 0px;
+  
+  background:
+    radial-gradient(var(--size) at 50% var(--size),blue 99%,#0000 101%) calc(50% - 3*var(--size)) 0/calc(4*var(--size)) 100% no-repeat,
+    radial-gradient(var(--size) at 50% 0px,#0000 99%,red 101%) 50% var(--size)/calc(4*var(--size)) 100% no-repeat;
+}
+.box2 + .box2 {
+  background-repeat: repeat-x;
+}
+.box2.mask2 {
+  bottom: 0;
+  position: relative;
+  top: 40;
+  -webkit-mask:
+    radial-gradient(var(--size) at 50% var(--size),blue 99%,#0000 101%) calc(50% - 2*var(--size)) 0/calc(4*var(--size)) 100%,
+    radial-gradient(var(--size) at 50% 0px,#0000 99%,red 101%) 50% var(--size)/calc(4*var(--size)) 100% repeat-x;
+  background:#F48B26;  
+  border: none;
