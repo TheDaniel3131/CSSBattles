@@ -1,0 +1,1 @@
+<body bgcolor=F59426><div id=b><div id=c><div id=a><div id=d><style>div{position:fixed;background:#F9BF7D}#a{background:#FFF;width:400;height:50;left:0;top:125}#b{width:400;height:100;left:0;top:100}#c{top:0;left:175;width:50;height:300}
