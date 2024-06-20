@@ -1,0 +1,1 @@
+<body bgcolor=4F77FF><div id=a><div id=b><div id=c><div id=d><div id=e><div id=f><style>div{position:fixed;background:#FFF}#a,#b{width:90;height:140;top:20;left:20}#b{left:290;top:140}#c,#d{width:90;height:120;top:20;left:130}#d{left:180;top:160}#e,#f{background:#4F77FF;left:150;top:20;width:50;height:100}#f{left:200;top:180}
